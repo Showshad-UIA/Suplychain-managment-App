@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>China To Malayisa Cargo Service</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container">
+        <a class="navbar-brand text-white h1" href="index.html">
+          <img style="height: 40%; width: 50%;" src="images/download.png" alt="">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-info" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar"></span>
+          <span class="navbar-toggler-bar"></span>
+          <span class="navbar-toggler-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-info">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="border-bottom: 5px solid rgb(233, 233, 233)
+              ;" class="nav-link text-white" href="#">Participent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="approval.html">Approval</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="transferownership.html">Ownership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white btn btn-light text-info" href="index.html">Create Order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div
+    class="bg-image containerT Prow"
+    style="
+      
+      height: 60vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+    "
+  >
+
+  <div style="text-align: left;" class="container mt-5 Pcolumn">
+    <form style="background-color: #0a4275; padding: 25px;" class="w-25">
+        <h3 style="text-align: center;">Add New Particiepnt</h3>
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" class="form-control" id="recipient-name">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Email" class="form-control" id="recipient-name">
+      </div> 
+      <div class="form-group">
+        <input type="text" placeholder="Participant Type" class="form-control" id="recipient-name">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Participant Address" class="form-control" id="recipient-name">
+      </div>
+
+      <a data-dismiss="modal" data-toggle="modal" href="#ignismyModal" class="btn btn-primary w-100 mt-2" href="">Add</a>
+      
+    
+    </form>
+  </div>
+  
+</div>
+
+
+
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button> -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create New Shipping Order</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Enter Order Serial Number:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Cost:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Owner Id:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" href="#ignismyModal" >Create Order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Model Popup starts-->
+<div class="container">
+  <div class="row">
+      <div class="modal fade" id="ignismyModal" role="dialog">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+                   </div>
+        
+                  <div class="modal-body">
+                     
+          <div class="thank-you-pop">
+            <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
+            <h1>Thank You!</h1>
+            <p>A new participent Has been addred to the blockchain</p>
+            <h3 class="cupon-pop">Name: <span>Maersk</span></h3>
+            
+           </div>
+                       
+                  </div>
+        
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--Model Popup ends-->
+<div class="input-group w-25 justify-content-center centered">
+    <h3 class="mb-2">Check Participent Details</h3>
+    <input type="search" class="form-control rounded" placeholder="Enter Particiepnt Id" aria-label="Search" aria-describedby="search-addon" />
+    <button type="button" class="btn btn-primary">Check</button>
+</div>
+
+
+<section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Grid container -->
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">ChinaToMalayisaCargoService.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+      $('#exampleModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget) // Button that triggered the modal
+    var recipient = button.data('whatever') // Extract info from data-* attributes
+    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      });
+    </script>
+
+
+  </body>
+</html>
